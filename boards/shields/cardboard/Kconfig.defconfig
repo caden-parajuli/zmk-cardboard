@@ -1,0 +1,16 @@
+if SHIELD_CARDBOARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Cardboard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CARDBOARD_LEFT || SHIELD_CARDBOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

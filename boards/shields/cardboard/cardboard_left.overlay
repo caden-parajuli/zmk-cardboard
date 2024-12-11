@@ -1,0 +1,18 @@
+#include "cardboard.dtsi"
+
+&kscan0 {
+    row-gpios
+        = <&gpio0 31 (GPIO_ROW)> // Row A from the schematic file
+        , <&gpio0 2  (GPIO_ROW)> // Row B from the schematic file
+        , <&gpio1 13 (GPIO_ROW)> // Row C from the schematic file
+        , <&xiao0 9  (GPIO_ROW)> // Row D from the schematic file
+        ;
+
+    col-gpios
+        = <&gpio0 29 (GPIO_COL)> // col1 in the schematic
+        , <&gpio1 15 (GPIO_COL)> // col2 in the schematic
+        , <&gpio1 11 (GPIO_COL)> // col3 in the schematic
+        , <&gpio0 10 (GPIO_COL)> // col4 in the schematic
+        , <&gpio1 6  (GPIO_COL)> // col5 in the schematic
+        ;
+};
