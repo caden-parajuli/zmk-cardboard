@@ -1,0 +1,11 @@
+file_format: "1"
+id: cardboard
+name: Cardboard
+type: shield
+url: https://github.com/caden-parajuli/zmk-cardboard
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - cardboard_left
+  - cardboard_right
