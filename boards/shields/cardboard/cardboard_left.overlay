@@ -5,7 +5,7 @@
         = <&gpio0 31 (GPIO_ROW)> // Row A from the schematic file
         , <&gpio0 2  (GPIO_ROW)> // Row B from the schematic file
         , <&gpio1 13 (GPIO_ROW)> // Row C from the schematic file
-        , <&xiao0 9  (GPIO_ROW)> // Row D from the schematic file
+        , <&gpio0 9  (GPIO_ROW)> // Row D from the schematic file
         ;
 
     col-gpios
