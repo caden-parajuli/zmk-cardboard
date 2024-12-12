@@ -1,3 +1,4 @@
+name: cardboard
 build:
   settings:
     board_root: .

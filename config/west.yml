@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: cardboard
+      url-base: https://github.com/caden-parajuli
   projects:
     - name: zmk
       remote: zmkfirmware
